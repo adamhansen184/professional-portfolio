@@ -1,3 +1,7 @@
+:root {
+  --placeholder: rgba(217, 217, 217, 50);
+}
+
 /* 
   TODO #6: [PORT-6] Present Responsive Layout
 */
