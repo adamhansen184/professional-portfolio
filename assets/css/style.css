@@ -5,3 +5,12 @@
 /* 
   TODO #6: [PORT-6] Present Responsive Layout
 */
+
+header {
+  background-image: url('../images/1STVFMTBJY.webp'),
+                    url('../images/AWXC4NOFZN.webp');
+  background-size: cover, cover;
+  /* fallback to placeholder color if our background images do not display */
+  background-color: var(--placeholder);
+  color: white;
+}
