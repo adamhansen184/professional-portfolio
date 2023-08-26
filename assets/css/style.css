@@ -14,3 +14,8 @@ header {
   background-color: var(--placeholder);
   color: white;
 }
+
+#avatar {
+  height: 256px;
+  width: 190px;
+}
