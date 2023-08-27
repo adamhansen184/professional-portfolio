@@ -22,6 +22,11 @@ header {
   max-width: 1280px;
 }
 
+menu li {
+  display: inline;
+  list-style: none;
+}
+
 #banner {
   background-image: url('../images/1STVFMTBJY.webp');
   background-size: cover;
