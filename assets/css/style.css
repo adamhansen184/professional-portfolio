@@ -74,3 +74,17 @@ nav a:hover {
   height: 170px;
   width: 126px;
 }
+
+footer {
+  background-color: black;
+}
+
+footer p {
+  color: white;
+  font-size: 0.875em;
+}
+
+.social-icon {
+  height: 24px;
+  width: 24px;
+}
