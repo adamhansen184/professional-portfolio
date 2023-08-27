@@ -1,5 +1,17 @@
+/* Import the Source Code Pro and Source Sans 3 font families from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+3:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 :root {
+  /* Color Variables */
   --placeholder: rgba(217, 217, 217, 50);
+
+  /* Font Variables */
+  --mono: 'Source Code Pro', monospace;
+  --sans: 'Source Sans 3', sans-serif;
+}
+
+body {
+  font-family: var(--sans);
 }
 
 /* 
