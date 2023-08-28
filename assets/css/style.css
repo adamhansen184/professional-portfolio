@@ -21,14 +21,14 @@ body {
   TODO #6: [PORT-6] Present Responsive Layout
 */
 
-/* 
-  TODO #13: [PORT-11] Pin Site Header to Top of Viewport
-*/
 header {
   background-color: var(--dark);
   color: var(--light);
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
   position: sticky;
   top: 0;
+  width: 100vw;
 }
 
 #site-title {
