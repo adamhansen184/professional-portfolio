@@ -82,6 +82,10 @@ footer {
   width: 100vw;
 }
 
+footer a, a:active, a:hover, a:visited {
+  color: white;
+}
+
 footer p {
   color: white;
   font-size: 0.875em;
