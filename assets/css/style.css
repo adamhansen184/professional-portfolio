@@ -3,7 +3,7 @@
 
 :root {
   /* Color Variables */
-  --dark: black;
+  --dark: #181717;
   --light: white;
   --placeholder: rgba(217, 217, 217, 50);
 
@@ -34,6 +34,10 @@ body {
 h1 {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
+}
+
+h2 {
+  border-bottom: medium solid var(--dark);
 }
 
 menu {
