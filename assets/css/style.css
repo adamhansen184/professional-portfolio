@@ -24,6 +24,11 @@ body {
 /* 
   TODO #13: [PORT-11] Pin Site Header to Top of Viewport
 */
+header {
+  position: sticky;
+  top: 0;
+}
+
 
 #site-title {
   margin-left: 32px;
