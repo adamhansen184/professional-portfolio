@@ -25,10 +25,11 @@ body {
   TODO #13: [PORT-11] Pin Site Header to Top of Viewport
 */
 header {
+  background-color: var(--dark);
+  color: var(--light);
   position: sticky;
   top: 0;
 }
-
 
 #site-title {
   margin-left: 32px;
@@ -46,8 +47,8 @@ h2 {
 }
 
 menu {
-  border-top: medium solid var(--dark);
-  border-bottom: medium solid var(--dark);
+  border-top: medium solid var(--light);
+  border-bottom: medium solid var(--light);
   margin-left: 32px;
   margin-right: 32px;
   padding-bottom: 0.5em;
@@ -64,12 +65,12 @@ menu li {
 }
 
 nav a, nav a:active, nav a:visited {
-  color: var(--dark);
+  color: var(--light);
   text-decoration: none;
 }
 
 nav a:hover {
-  color: var(--dark);
+  color: var(--light);
   text-decoration: underline;
 }
 
