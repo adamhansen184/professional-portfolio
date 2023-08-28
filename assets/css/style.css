@@ -19,6 +19,10 @@ body {
   TODO #6: [PORT-6] Present Responsive Layout
 */
 
+/* 
+  TODO #13: [PORT-11] Pin Site Header to Top of Viewport
+*/
+
 #site-title {
   margin-left: 32px;
   margin-right: 32px;
@@ -73,4 +77,29 @@ nav a:hover {
 #avatar {
   height: 170px;
   width: 126px;
+}
+
+footer {
+  background-color: black;
+  position: sticky;
+  bottom: 0;
+  width: 100vw;
+}
+
+footer a, a:active, a:hover, a:visited {
+  color: white;
+}
+
+footer p {
+  color: white;
+  font-size: 0.875em;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  text-align: center;
+}
+
+.social-icon {
+  height: 24px;
+  margin: 24px;
+  width: 24px;
 }
