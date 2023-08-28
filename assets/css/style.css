@@ -82,9 +82,13 @@ footer {
 footer p {
   color: white;
   font-size: 0.875em;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  text-align: center;
 }
 
 .social-icon {
   height: 24px;
+  margin: 24px;
   width: 24px;
 }
