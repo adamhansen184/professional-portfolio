@@ -20,6 +20,9 @@ body {
 /* 
   TODO #6: [PORT-6] Present Responsive Layout
 */
+.flexbox-container {
+  display: flex;
+}
 
 header {
   background-color: var(--dark);
