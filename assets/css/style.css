@@ -20,8 +20,15 @@ body {
 /* 
   TODO #6: [PORT-6] Present Responsive Layout
 */
-.flexbox-container {
+.flexbox-container-row {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flexbox-container-column {
+  display: flex;
+  flex-direction: column;
 }
 
 header {
