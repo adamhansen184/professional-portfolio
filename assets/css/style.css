@@ -24,6 +24,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  gap: 32px;
 }
 
 .flexbox-container-column {
@@ -31,9 +32,26 @@ body {
   flex-direction: column;
 }
 
+aside {
+  margin-left: 32px;
+  margin-right: 32px;
+  max-width: 326px;
+}
+
+main {
+  flex-grow: 2;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+nav {
+  max-width: 1280px;
+}
+
 header {
   background-color: var(--dark);
   color: var(--light);
+  max-width: 1280px;
   padding-bottom: 0.5em;
   padding-top: 0.5em;
   position: sticky;
@@ -109,6 +127,7 @@ footer {
   background-color: var(--dark);
   position: sticky;
   bottom: 0;
+  max-width: 1280px;
   width: 100vw;
 }
 
