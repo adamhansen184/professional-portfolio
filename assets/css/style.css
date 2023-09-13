@@ -12,57 +12,32 @@
   --sans: 'Source Sans 3', sans-serif;
 }
 
+/************************ 
+  Attribute Selectors
+************************/
+
 body {
   font-family: var(--sans);
-  max-width: 1280px;
-}
-
-/* 
-  TODO #6: [PORT-6] Present Responsive Layout
-*/
-.flexbox-container-row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 32px;
-}
-
-.flexbox-container-column {
-  display: flex;
-  flex-direction: column;
 }
 
 aside {
-  margin-left: 32px;
-  margin-right: 32px;
-  max-width: 326px;
+  flex: 1 1 33%;
+  /* max-width: 326px; */
 }
 
 main {
-  flex-grow: 2;
   margin-left: 32px;
   margin-right: 32px;
-}
-
-nav {
-  max-width: 1280px;
 }
 
 header {
   background-color: var(--dark);
   color: var(--light);
-  max-width: 1280px;
   padding-bottom: 0.5em;
   padding-top: 0.5em;
   position: sticky;
   top: 0;
   width: 100vw;
-}
-
-#site-title {
-  margin-left: 32px;
-  margin-right: 32px;
-  text-align: center;
 }
 
 h1 {
@@ -106,28 +81,10 @@ a, a:active, a:hover, a:visited {
   color: var(--dark);
 }
 
-#banner {
-  background-image: url('../images/1STVFMTBJY.webp');
-  background-size: cover;
-  /* fallback to placeholder color if our background images do not display */
-  background-color: var(--placeholder);
-  color: var(--light);
-  display: flex;
-  align-items: end;
-  justify-content: center;
-  min-height: 256px;
-}
-
-#avatar {
-  height: 170px;
-  width: 126px;
-}
-
 footer {
   background-color: var(--dark);
   position: sticky;
   bottom: 0;
-  max-width: 1280px;
   width: 100vw;
 }
 
@@ -143,8 +100,66 @@ footer p {
   text-align: center;
 }
 
+/************************
+  Class Selectors
+************************/
+
+ .flexbox-container-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.flexbox-container-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.project {
+  background: var(--placeholder);
+  flex-basis: 326px;
+  min-height: 326px;
+}
+
 .social-icon {
   height: 24px;
   margin: 24px;
   width: 24px;
+}
+
+/************************
+  ID Selectors
+************************/
+
+#avatar {
+  height: 170px;
+  width: 126px;
+}
+
+#banner {
+  background-image: url('../images/1STVFMTBJY.webp');
+  background-size: cover;
+  /* fallback to placeholder color if our background images do not display */
+  background-color: var(--placeholder);
+  color: var(--light);
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  min-height: 256px;
+}
+
+#featured {
+  flex-grow: 2;
+}
+
+#projects {
+  flex: 2 2 66%;
+}
+
+#site-title {
+  margin-left: 32px;
+  margin-right: 32px;
+  text-align: center;
 }
