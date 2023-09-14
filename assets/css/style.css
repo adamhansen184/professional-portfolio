@@ -21,8 +21,8 @@ body {
 }
 
 aside {
-  flex: 1 1 33%;
-  /* max-width: 326px; */
+  flex: 1 1 30%;
+  max-width: 326px;
 }
 
 main {
@@ -157,7 +157,7 @@ footer p {
 }
 
 #projects {
-  flex: 2 2 66%;
+  flex: 2 2 60%;
 }
 
 #projects-flexbox-container {
