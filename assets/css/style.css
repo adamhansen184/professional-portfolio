@@ -12,14 +12,23 @@
   --sans: 'Source Sans 3', sans-serif;
 }
 
+/************************ 
+  Attribute Selectors
+************************/
+
 body {
   font-family: var(--sans);
-  max-width: 1280px;
 }
 
-/* 
-  TODO #6: [PORT-6] Present Responsive Layout
-*/
+aside {
+  flex: 1 1 30%;
+  max-width: 326px;
+}
+
+main {
+  margin-left: 32px;
+  margin-right: 32px;
+}
 
 header {
   background-color: var(--dark);
@@ -29,12 +38,6 @@ header {
   position: sticky;
   top: 0;
   width: 100vw;
-}
-
-#site-title {
-  margin-left: 32px;
-  margin-right: 32px;
-  text-align: center;
 }
 
 h1 {
@@ -78,23 +81,6 @@ a, a:active, a:hover, a:visited {
   color: var(--dark);
 }
 
-#banner {
-  background-image: url('../images/1STVFMTBJY.webp');
-  background-size: cover;
-  /* fallback to placeholder color if our background images do not display */
-  background-color: var(--placeholder);
-  color: var(--light);
-  display: flex;
-  align-items: end;
-  justify-content: center;
-  min-height: 256px;
-}
-
-#avatar {
-  height: 170px;
-  width: 126px;
-}
-
 footer {
   background-color: var(--dark);
   position: sticky;
@@ -114,8 +100,72 @@ footer p {
   text-align: center;
 }
 
+/************************
+  Class Selectors
+************************/
+
+ .flexbox-container-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.flexbox-container-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.project {
+  background: var(--placeholder);
+  flex: 1 1 326px;
+  max-width: 326px;
+  min-height: 326px;
+}
+
 .social-icon {
   height: 24px;
   margin: 24px;
   width: 24px;
+}
+
+/************************
+  ID Selectors
+************************/
+
+#avatar {
+  height: 170px;
+  width: 126px;
+}
+
+#banner {
+  background-image: url('../images/1STVFMTBJY.webp');
+  background-size: cover;
+  /* fallback to placeholder color if our background images do not display */
+  background-color: var(--placeholder);
+  color: var(--light);
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  min-height: 256px;
+}
+
+#featured {
+  flex: 2 2 668px;
+  max-width: 668px;
+}
+
+#projects {
+  flex: 2 2 60%;
+}
+
+#projects-flexbox-container {
+  justify-content: unset;
+}
+
+#site-title {
+  margin-left: 32px;
+  margin-right: 32px;
+  text-align: center;
 }
