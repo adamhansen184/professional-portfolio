@@ -119,7 +119,8 @@ footer p {
 
 .project {
   background: var(--placeholder);
-  flex-basis: 326px;
+  flex: 1 1 326px;
+  max-width: 326px;
   min-height: 326px;
 }
 
@@ -151,11 +152,16 @@ footer p {
 }
 
 #featured {
-  flex-grow: 2;
+  flex: 2 2 668px;
+  max-width: 668px;
 }
 
 #projects {
   flex: 2 2 66%;
+}
+
+#projects-flexbox-container {
+  justify-content: unset;
 }
 
 #site-title {
