@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+3:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
+  /* 
+    TODO #23: [PORT-16] Change and Extend Color Palette  
+  */
   /* Color Variables */
   --dark: #181717;
   --light: white;
@@ -145,6 +148,9 @@ footer p {
   position: relative;
 }
 
+/*
+  TODO #22: [PORT-15] Fix Project Images
+*/
 .project img {
   height: 100%;
   opacity: 60%;
@@ -170,17 +176,26 @@ footer p {
   width: 126px;
 }
 
-#banner {
+/*
+  TODO #21: [PORT-14] Restore Banner Image
+*/
+/* #banner {
   background-image: url('../images/1STVFMTBJY.webp');
   background-size: cover;
-  /* fallback to placeholder color if our background images do not display */
   background-color: var(--placeholder);
   color: var(--light);
   display: flex;
   align-items: end;
   justify-content: center;
   min-height: 256px;
-}
+} */
+
+/* 
+  TODO #16: [PORT-12] Vertical Align Contact Info Text with Icons
+*/
+/* #contact-info { 
+
+} */
 
 #featured {
   flex: 2 2 674px;
